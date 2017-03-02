@@ -1,0 +1,17 @@
+{
+	"name": "backstack",
+	"version": "0.0.1",
+	"private": false,
+	"engines": {
+		"node": "4.4.7",
+		"npm": "2.14.20"
+	},
+	"scripts": {
+		"test"    : "node_modules/nodeunit/bin/nodeunit tests/*"
+	},
+	"dependencies": {
+	},
+	"devDependencies": {
+		"nodeunit"   : "0.9.1"
+	}
+}
